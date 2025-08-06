@@ -6,7 +6,7 @@ on:
       - test
 
 jobs:
-  hello_world: # name of the job
+  WOrkflow2: # name of the job
     runs-on: ubuntu-latest #runner machine
     steps:
       - name: "Print My Name"
