@@ -6,8 +6,8 @@ on:
       - test
 
 jobs:
-  WOrkflow2:
-    runs-on:
-      steps:
-        name: "print My name"
-        run: echo "Amit Armaan"
+  hello_world: # name of the job
+    runs-on: ubuntu-latest #runner machine
+    steps:
+      - name: "Print My Name"
+        run: echo "Hello Amit ARmaan"
