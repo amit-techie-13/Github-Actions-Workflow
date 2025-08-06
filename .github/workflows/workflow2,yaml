@@ -3,6 +3,7 @@ name: "WOrkflow2"
 on: 
   push:
     branches:
+      - master
       - test
 
 jobs:
