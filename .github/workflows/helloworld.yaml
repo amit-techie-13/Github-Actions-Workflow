@@ -1,14 +1,14 @@
-name: "Hello world workflow"
+name: "Hello world workflow" # name of the corresponding pipeline/workflow
 
-on:
-  push:
+on: # on what event it should trigger
+  push: # this is the event, on its occurance the pipeline executes/triggers
     branches:
       - master
       - prduction
-
+# jobs consisting of steps , below
 jobs:
-  hello_world:
-    runs-on: ubuntu-latest
+  hello_world: # name of the job
+    runs-on: ubuntu-latest #runner machine
     steps:
       - name: "Print Hello World"
         run: echo "Hello world"

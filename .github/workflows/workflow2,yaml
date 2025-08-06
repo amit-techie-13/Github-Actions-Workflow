@@ -1,0 +1,13 @@
+name: "WOrkflow2"
+
+on: 
+  push:
+    branches:
+      - test
+
+jobs:
+  WOrkflow2:
+    runs-on:
+      steps:
+        name: "print My name"
+        run: echo "Amit Armaan"
